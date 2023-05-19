@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1200px;
+  height: 1080px;
+  margin: auto;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  font-size: 18px;
+}
+
+
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.cards {
+  width: 400px;
+  height: auto;
+  background-color: rgb(157, 0, 255);
+  margin-bottom: 240px;
+}
+
+section {
+  border-radius: 20px;
+
+}
+
+.wrapper {
+  width: auto;
+  height: auto;
+  padding: 15px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title-text {
+  margin-right: 130px;
+}
+
+
+.button-buy {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: blueviolet;
+  margin-top: 20px;
+  border-radius: 200px;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.button-buy:hover {
+  border: solid 2px ;
+  transition: .2s linear;
+  text-decoration: none;
+  background-color:  rgb(157, 0, 255);
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* :root {
+  --dark-color: #19283f;
+  --green-color: #33d1cc;
+  --red-color: #ff3150;
+  --yellow-color: #ffc400;
+  --section-color: #eff7fa;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.bg-dark-color {
+  background-color: var(--dark-color) !important;
+}
+
+.bg-section-color {
+  background-color: var(--section-color) !important;
+}
+
+.bg-green-color {
+  background-color: var(--green-color) !important;
+}
+
+.bg-yellow-color {
+  background-color: var(--yellow-color) !important;
+}
+
+.text-green,
+.text-green-hover:hover,
+.text-green-hover.active {
+  color: var(--green-color) !important;
+}
+
+.text-yellow {
+  color: var(--yellow-color) !important;
+}
+
+.text-red-hover:hover {
+  color: var(--red-color) !important;
+}
+
+.special-icon-skills:after {
+  font-family: "Font Awesome 6 Free";
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  bottom: -50px;
+  font-size: 200px;
+  color: var(--bs-light);
+  z-index: -1;
+}
+
+.special-icon-skills-1:after {
+  content: "\31";
+}
+
+.special-icon-skills-2:after {
+  content: "\32";
+}
+
+.special-icon-skills-3:after {
+  content: "\33";
+}
+
+.main-btn {
+  color: var(--yellow-color);
+  background: var(--red-color);
+}
+
+.main-btn:hover {
+  color: var(--red-color);
+  background: var(--yellow-color);
+}
+
+.general-section:before {
+  content: "";
+  width: 150px;
+  height: 2px;
+  background-color: var(--green-color);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.work-piece:before {
+  content: attr(data-info);
+  text-transform: capitalize;
+  position: absolute;
+  top: 50%;
+  left: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  transition: 0.3s;
+  color: white;
+  background-color: #33d1cc88;
+  width: calc(100% - 34px);
+  height: calc(100% - 10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.work-piece:hover:before {
+  left: 50%;
+}
+
+.maxh-100 {
+  max-height: 100px;
+}
+
+#search {
+  border-left: 1px solid;
+}
+
+#navbar-button:focus {
+  box-shadow: none;
+}
+
+#landing-section {
+  height: calc(100vh - 70px);
+}
+
+#email-input::placeholder {
+  color: white;
+  text-transform: capitalize;
+}
+
+#email-input {
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+
+[aria-expanded="true"] {
+  border-color: var(--green-color) !important;
+} */
